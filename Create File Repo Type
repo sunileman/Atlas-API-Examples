@@ -1,0 +1,27 @@
+{
+  "enumTypes": [],
+  "structTypes": [],
+  "traitTypes": [],
+  "classTypes": [
+    {
+      "superTypes": [
+        "Referenceable",
+        "Asset"
+      ],
+      "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
+      "typeName": "file_repo",
+      "typeDescription": null,
+      "attributeDefinitions": [
+        {
+          "name": "repo_name",
+          "dataTypeName": "string",
+          "multiplicity": "optional",
+          "isComposite": false,
+          "isUnique": true,
+          "isIndexable": true,
+          "reverseAttributeName": null
+        }
+      ]
+    }
+  ]
+}

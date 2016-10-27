@@ -1,0 +1,4 @@
+
+DELETE http://<atlas-server-host:port>/api/atlas/entities?guid={guid}
+
+curl -X DELETE -u admin:admin -H 'Content-Type: application/json;  charset=UTF-8' 127.0.0.1:21000/api/atlas/entities?guid=c62bb1cd-069b-4176-ab7a-33e8a224bf53

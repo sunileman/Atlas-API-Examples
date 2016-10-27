@@ -1,0 +1,29 @@
+{
+ "jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+ "id":{
+ "jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+ "id":"85045587-436c-4da8-972f-954cf5bc85a1",
+ "version":0,
+ "typeName":"file_repo",
+ "state":"ACTIVE"
+ },
+ "typeName":"file_repo",
+ "values":{
+ "qualifiedName":"sharepoint",
+ "description":"Sharepoint Repository1",
+ "repo_name":"sharepoint",
+ "name":"sharepoint",
+ "owner":"sunile"
+ },
+ "traitNames":[
+
+ ],
+ "traits":{
+
+ }
+}
+
+
+POST http://<atlas-server-host:port>/api/atlas/entities/{GUID}
+
+curl -u admin:admin -d @sharepoint.json -H 'Content-Type: application/json;  charset=UTF-8' -X POST localhost:21000/api/atlas/entities/85045587-436c-4da8-972f-954cf5bc85a1

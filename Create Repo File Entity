@@ -1,0 +1,31 @@
+{
+"jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+"id": {
+"jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+"id": "-1466683608564093000",
+"version": 0,
+"typeName": "repo_file",
+"state": "ACTIVE"
+},
+"typeName": "repo_file",
+"values": {
+"file_home":{
+"jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+"id":"85045587-436c-4da8-972f-954cf5bc85a1",
+"version":0,
+"typeName":"file_repo",
+"state":"ACTIVE"
+},
+"qualifiedName": "moredata.txt",
+"owner": "sunile",
+"description": "another file",
+"name": "moredata.txt"
+},
+"traitNames": [],
+"traits": {}
+}
+
+
+
+
+curl -X POST -d @file.json -u admin:admin -H 'Content-Type: application/json;  charset=UTF-8' 127.0.0.1:21000/api/atlas/entities

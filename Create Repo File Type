@@ -1,0 +1,66 @@
+{
+  "enumTypes": [],
+  "structTypes": [],
+  "traitTypes": [],
+  "classTypes": [
+    {
+      "superTypes": [
+        "Asset"
+      ],
+      "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
+      "typeName": "repo_file",
+      "typeDescription": null,
+      "attributeDefinitions": [
+        {
+          "name": "file_home",
+          "dataTypeName": "file_repo",
+          "multiplicity": "required",
+          "isComposite": false,
+          "isUnique": false,
+          "isIndexable": true,
+          "reverseAttributeName": null
+        },
+        {
+          "name": "file_name",
+          "dataTypeName": "string",
+          "multiplicity": "optional",
+          "isComposite": false,
+          "isUnique": false,
+          "isIndexable": true,
+          "reverseAttributeName": null
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+{
+  "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+  "id": {
+    "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+    "id": "-1466683608564093000",
+    "version": 0,
+    "typeName": "repo_file",
+    "state": "ACTIVE"
+  },
+  "typeName": "filetest1",
+  "values": {
+    "repo_file": {
+      "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+      "id": "85045587-436c-4da8-972f-954cf5bc85a1",
+      "version": 0,
+      "typeName": "repo_file",
+      "state": "ACTIVE"
+    },
+    "qualifiedName": "somedata.txt",
+    "owner": "sunile",
+    "description": "my file with some data",
+    "name": "somedata.txt"
+  },
+  "traitNames": [],
+  "traits": {}
+}

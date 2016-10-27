@@ -1,0 +1,28 @@
+{
+ "jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+ "id":{
+ "jsonClass":"org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+ "id":"-1466683608564093000",
+ "version":0,
+ "typeName":"file_repo",
+ "state":"ACTIVE"
+ },
+ "typeName":"file_repo",
+ "values":{
+ "qualifiedName":"IBM3",
+ "description":"IBM3 description",
+ "repo_name":"IBM3",
+ "name":"IBM3",
+ "owner":"sunile"
+ },
+ "traitNames":[
+
+ ],
+ "traits":{
+
+ }
+}
+
+
+and to post the new file repo
+curl -X POST -d @ibm_entity.json -u admin:admin -H 'Content-Type: application/json;  charset=UTF-8' 127.0.0.1:21000/api/atlas/entities
